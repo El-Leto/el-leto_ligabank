@@ -1,4 +1,4 @@
-# Руководство по работе с проектом
+# Проект грейдирования «Лига Банк»
 
 Данный проект создан с помощью [Create React App](https://github.com/facebook/create-react-app).
 
