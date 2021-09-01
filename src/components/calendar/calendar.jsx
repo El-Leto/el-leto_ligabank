@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import Flatpickr from 'react-flatpickr';
 import styles from './calendar.module.scss';
 import 'flatpickr/dist/themes/material_green.css';
-
-const WEEK = 7;
+import { WEEK } from '../utils';
 
 function Calendar({ date, onDataChange }) {
 

@@ -7,16 +7,11 @@ import Calendar from '../calendar/calendar';
 import { addHistory, addRates } from '../../store/actions';
 import { getConvertedValue } from '../utils';
 import styles from './converter.module.scss';
+import { DEFAULT_VALUE, DEFAULT_CURRENCY_FROM, DEFAULT_CURRENCY_TO, LabelValues } from '../utils';
 
 const BACKEND_URL = 'https://openexchangerates.org/api/historical';
 const APP_ID = '.json?app_id=145895ed17ed424dbfa93fe9506c1975';
-const DEFAULT_VALUE = '0';
-const DEFAULT_CURRENCY_FROM = 'RUB';
-const DEFAULT_CURRENCY_TO = 'USD';
-const LabelValues = {
-  FROM: 'У меня есть',
-  TO: 'Хочу приобрести',
-};
+
 let id = 1;
 
 
